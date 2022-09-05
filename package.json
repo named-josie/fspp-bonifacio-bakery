@@ -1,0 +1,16 @@
+{
+  "name": "fspp-bonifacio-bakery",
+  "version": "1.0.0",
+  "description": "Bakery App",
+  "main": "back-end/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cakes",
+    "bakery",
+    "bread"
+  ],
+  "author": "Jossy Pascasio",
+  "license": "ISC"
+}

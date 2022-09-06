@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Styles/navbar.css';
-import logo3 from './assets/logo3.png';
+// import logo3 from './assets/logo3.png';
 import { RiShoppingBasketLine } from 'react-icons/ri';
 
 export default function NavBar({item}) {
@@ -8,9 +8,9 @@ export default function NavBar({item}) {
   return (
     <nav>
       <div>
-        <Link to='/'>
+        {/* <Link to='/'>
           <img className='nav-image' src={logo3} alt=''></img>
-        </Link>
+        </Link> */}
       </div>
       <p className='navbar'>
         <Link to='/todo'>Menu</Link>

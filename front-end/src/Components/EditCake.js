@@ -90,7 +90,7 @@ export default function EditCake() {
             required
             />
         <label className='edit-label' htmlFor='image'>
-           URL Imagen:
+           Imagen:
           </label>
           <input
             className='text'

@@ -35,7 +35,7 @@ export default function NewCake() {
       <form onSubmit={handleSubmit}>
         <div className='color1'>
           <label className='new-label1' htmlFor='name'>
-            Name
+          Nombre:
           </label>
           <input
             className='text'
@@ -47,7 +47,7 @@ export default function NewCake() {
             onChange={handleTextChange}
           />
           <label className='new-label1' htmlFor='protein'>
-            Price
+          Precio:
           </label>
           <input
             className='text'
@@ -59,7 +59,7 @@ export default function NewCake() {
             onChange={handleTextChange}
           />
           <label className='new-label1' htmlFor='description'>
-          Description
+          Descripción:
           </label>
           <textarea
             rows="5"
@@ -73,7 +73,7 @@ export default function NewCake() {
             required
             />
           <label className='new-label1' htmlFor='image'>
-            Image Url
+          Imagen:
           </label>
           <input
             className='text'
